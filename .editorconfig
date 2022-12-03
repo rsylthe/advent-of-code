@@ -1,0 +1,21 @@
+root = true
+
+[*.{kt,kts,proto,java,md,yml,xml,conf,css,html}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 120
+disabled_rules = import-ordering,trailing-comma
+
+[*.{kt,kts}]
+ij_kotlin_imports_layout = *,java.**,javax.**,kotlin.**,^
+ij_kotlin_name_count_to_use_star_import = 2147483647
+ij_kotlin_name_count_to_use_star_import_for_members = 2147483647
+
+[*.md]
+continuation_indent_size = 2
+trim_trailing_whitespace = false
+max_line_length = 120

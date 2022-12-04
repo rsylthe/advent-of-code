@@ -1,11 +1,11 @@
 plugins {
-    `kotlin-dsl`
+  `kotlin-dsl`
 }
 
 repositories {
-    gradlePluginPortal()
+  gradlePluginPortal()
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
+  implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
 }

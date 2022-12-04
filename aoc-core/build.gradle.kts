@@ -1,3 +1,3 @@
 plugins {
-    id("aokotlin.kotlin-library-conventions")
+  id("aokotlin.kotlin-library-conventions")
 }

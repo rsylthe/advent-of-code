@@ -1,4 +1,4 @@
 plugins {
-    id("aokotlin.kotlin-common-conventions")
-    application
+  id("aokotlin.kotlin-common-conventions")
+  application
 }

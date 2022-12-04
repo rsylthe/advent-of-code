@@ -1,4 +1,4 @@
 plugins {
-    id("aokotlin.kotlin-common-conventions")
-    `java-library`
+  id("aokotlin.kotlin-common-conventions")
+  `java-library`
 }
